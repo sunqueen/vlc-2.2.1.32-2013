@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{9c757c8d-702b-4ed0-92c7-db16766c1abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{4fc6a048-eff5-43d6-9beb-a7d23e24f418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access\bd">
+      <UniqueIdentifier>{8abc62f1-b336-4d66-a85e-766d2cbe8584}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\bd\bd.c">
+      <Filter>Source Files\modules\access\bd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\bd\clpi.c">
+      <Filter>Source Files\modules\access\bd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\bd\mpls.c">
+      <Filter>Source Files\modules\access\bd</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

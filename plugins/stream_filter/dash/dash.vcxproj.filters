@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{bcfe8b51-96ee-4f0e-a84f-05c0445a603a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_filter">
+      <UniqueIdentifier>{3cd6404b-c2ad-4b44-8237-ddfdd5954f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_filter\dash">
+      <UniqueIdentifier>{b89ace4e-3ce0-4587-a065-72a97e4c117c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_filter\dash\adaptationlogic">
+      <UniqueIdentifier>{9c3b8cc9-8dff-488a-a036-66300a23e213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_filter\dash\buffer">
+      <UniqueIdentifier>{082eefe4-9a50-45f8-a473-663edaeda788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_filter\dash\http">
+      <UniqueIdentifier>{6cac0534-28a4-44f8-b8f8-26f8a3f3b711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_filter\dash\mpd">
+      <UniqueIdentifier>{764113de-ba4f-471e-8968-4991eea88369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_filter\dash\xml">
+      <UniqueIdentifier>{86e10543-5b09-4071-8c8d-e4cfa620f934}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\dash.cpp">
+      <Filter>Source Files\modules\stream_filter\dash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\DASHDownloader.cpp">
+      <Filter>Source Files\modules\stream_filter\dash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\DASHManager.cpp">
+      <Filter>Source Files\modules\stream_filter\dash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\Helper.cpp">
+      <Filter>Source Files\modules\stream_filter\dash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\adaptationlogic\AbstractAdaptationLogic.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\adaptationlogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\adaptationlogic\AdaptationLogicFactory.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\adaptationlogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\adaptationlogic\AlwaysBestAdaptationLogic.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\adaptationlogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\adaptationlogic\RateBasedAdaptationLogic.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\adaptationlogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\buffer\BlockBuffer.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\http\Chunk.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\http\HTTPConnection.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\http\HTTPConnectionManager.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\http\PersistentConnection.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\AdaptationSet.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\BasicCMManager.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\BasicCMParser.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\CommonAttributesElements.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\ContentDescription.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\IsoffMainManager.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\IsoffMainParser.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\MPD.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\MPDFactory.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\MPDManagerFactory.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\Period.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\ProgramInformation.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\Representation.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\Segment.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\SegmentBase.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\SegmentInfo.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\SegmentInfoCommon.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\SegmentInfoDefault.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\SegmentList.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\SegmentTemplate.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\SegmentTimeline.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\mpd\TrickModeType.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\mpd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\xml\DOMHelper.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\xml\DOMParser.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_filter\dash\xml\Node.cpp">
+      <Filter>Source Files\modules\stream_filter\dash\xml</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{ba5cbc5d-47ec-4df5-bae5-4d81f186accd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{34a3f5c7-07a8-4113-81cc-b6e9a5e1e48a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\vc1.c">
+      <Filter>Source Files\modules\demux</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

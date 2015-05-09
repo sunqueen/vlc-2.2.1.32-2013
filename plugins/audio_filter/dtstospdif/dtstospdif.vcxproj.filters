@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{289bc779-140a-4e1e-9d0b-5c4adfe91f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter">
+      <UniqueIdentifier>{f8499798-7e2c-4194-8eb4-a18eb0b26640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter\converter">
+      <UniqueIdentifier>{f5f03e29-e4b7-489e-85dd-b2842d48db1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\converter\dtstospdif.c">
+      <Filter>Source Files\modules\audio_filter\converter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

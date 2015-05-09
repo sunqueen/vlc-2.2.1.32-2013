@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{52c8b88d-bfbd-462d-b00a-2365245ba666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_output">
+      <UniqueIdentifier>{5eb9a732-12ea-4ab7-93be-8a2558e27e25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_output\file.c">
+      <Filter>Source Files\modules\audio_output</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

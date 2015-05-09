@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{c820eb77-a06c-404a-b76e-ac3b8760fa16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\visualization">
+      <UniqueIdentifier>{e10f59bb-32a1-4742-878b-e172e103ca48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\visualization\visual">
+      <UniqueIdentifier>{11b7cd7e-5a3b-4fd2-9766-338c50e07f9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\visualization\glspectrum.c">
+      <Filter>Source Files\modules\visualization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\visualization\visual\fft.c">
+      <Filter>Source Files\modules\visualization\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\visualization\visual\window.c">
+      <Filter>Source Files\modules\visualization\visual</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{401ce9c8-6b16-4d48-b613-7111f54eec8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_output">
+      <UniqueIdentifier>{9e7e935e-5edb-41d8-8a34-21b0aa34877f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_output\msw">
+      <UniqueIdentifier>{ef939734-8cb8-4a7d-bc0c-6d71212eb3aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_output\msw\common.c">
+      <Filter>Source Files\modules\video_output\msw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_output\msw\direct3d.c">
+      <Filter>Source Files\modules\video_output\msw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_output\msw\events.c">
+      <Filter>Source Files\modules\video_output\msw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_output\msw\win32touch.c">
+      <Filter>Source Files\modules\video_output\msw</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

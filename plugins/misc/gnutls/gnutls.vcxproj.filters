@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{aa63a9b1-3540-4b16-8ab6-b51282facfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\misc">
+      <UniqueIdentifier>{580c0291-e464-4a9d-aa5b-a1a3f60df1e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\misc\gnutls.c">
+      <Filter>Source Files\modules\misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

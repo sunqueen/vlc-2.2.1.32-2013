@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{c1956b90-d1ec-4afc-a503-6166dd4516fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_filter">
+      <UniqueIdentifier>{c5c65582-54d2-4a9d-91ef-e34291e48da7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\bluescreen.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

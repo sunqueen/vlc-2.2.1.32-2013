@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{a68ad2f9-bc5d-4bc0-b6dd-a101e9e03857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec">
+      <UniqueIdentifier>{9c7b5da7-5f8e-4d5e-9d9b-ebf9ea5d04a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\t140.c">
+      <Filter>Source Files\modules\codec</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

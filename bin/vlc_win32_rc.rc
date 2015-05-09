@@ -1,0 +1,33 @@
+#define VERSION_NUMBER 2,2,1,0
+#define VERSION_NUMBER_STR "2,2,1,0"
+
+VLC_ICON ICON "vlc.ico"
+
+1 VERSIONINFO
+FILETYPE 1
+FILEOS 4
+PRODUCTVERSION VERSION_NUMBER
+FILEVERSION VERSION_NUMBER
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "VideoLAN"
+      VALUE "ProductName", "VLC media player"
+      VALUE "ProductVersion", VERSION_NUMBER_STR
+      VALUE "InternalName", "vlc"
+      VALUE "OriginalFilename", "vlc.exe"
+      VALUE "FileVersion", "2.2.1"
+      VALUE "FileDescription", "VLC media player"
+      VALUE "LegalCopyright", "Copyright \251 1996-2015 VideoLAN and VLC Authors"
+      VALUE "LegalTrademarks", "VLC media player, VideoLAN and x264 are registered trademarks from VideoLAN"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END
+
+2 RT_MANIFEST "vlc.exe.manifest"

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{91bff696-1efc-4d90-94c3-7c58862fedf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\services_discovery">
+      <UniqueIdentifier>{41f5234b-5c0b-4776-8b50-bf48afc3eaf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\services_discovery\sap.c">
+      <Filter>Source Files\modules\services_discovery</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

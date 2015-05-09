@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{3bd76798-6975-453a-8794-302c73fbc1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter">
+      <UniqueIdentifier>{93565427-de37-4c06-b8e3-04b49b49cbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter\spatializer">
+      <UniqueIdentifier>{75031182-d94c-4233-acd6-2648b3a7b1a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\spatializer\spatializer.cpp">
+      <Filter>Source Files\modules\audio_filter\spatializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\spatializer\allpass.cpp">
+      <Filter>Source Files\modules\audio_filter\spatializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\spatializer\comb.cpp">
+      <Filter>Source Files\modules\audio_filter\spatializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\spatializer\denormals.c">
+      <Filter>Source Files\modules\audio_filter\spatializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\spatializer\revmodel.cpp">
+      <Filter>Source Files\modules\audio_filter\spatializer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

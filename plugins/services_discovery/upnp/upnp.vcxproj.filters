@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{5d412d11-f0a3-453d-81e9-1570d321a357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\services_discovery">
+      <UniqueIdentifier>{1d3a8e7c-7c52-45a7-9931-872dbdeebda1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\services_discovery\upnp.cpp">
+      <Filter>Source Files\modules\services_discovery</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

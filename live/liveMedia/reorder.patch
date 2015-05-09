@@ -1,0 +1,63 @@
+--- live/liveMedia/MultiFramedRTPSource.cpp	2011-10-18 02:20:32.000000000 +0200
++++ live/liveMedia/patch/MultiFramedRTPSource.cpp	2011-10-21 12:49:07.000000000 +0200
+@@ -53,6 +53,7 @@
+   Boolean fHaveSeenFirstPacket; // used to set initial "fNextExpectedSeqNo"
+   unsigned short fNextExpectedSeqNo;
+   BufferedPacket* fHeadPacket;
++  BufferedPacket* fTailPacket;
+   BufferedPacket* fSavedPacket;
+       // to avoid calling new/free in the common case
+   Boolean fSavedPacketFree;
+@@ -459,7 +460,7 @@
+ ReorderingPacketBuffer
+ ::ReorderingPacketBuffer(BufferedPacketFactory* packetFactory)
+   : fThresholdTime(100000) /* default reordering threshold: 100 ms */,
+-    fHaveSeenFirstPacket(False), fHeadPacket(NULL), fSavedPacket(NULL), fSavedPacketFree(True) {
++    fHaveSeenFirstPacket(False), fHeadPacket(NULL), fTailPacket(NULL), fSavedPacket(NULL), fSavedPacketFree(True) {
+   fPacketFactory = (packetFactory == NULL)
+     ? (new BufferedPacketFactory)
+     : packetFactory;
+@@ -475,6 +476,7 @@
+   delete fHeadPacket; // will also delete fSavedPacket if it's in the list
+   resetHaveSeenFirstPacket();
+   fHeadPacket = NULL;
++  fTailPacket = NULL;
+   fSavedPacket = NULL;
+ }
+ 
+@@ -505,7 +507,24 @@
+   // that we're looking for (in this case, it's been excessively delayed).
+   if (seqNumLT(rtpSeqNo, fNextExpectedSeqNo)) return False;
+ 
+-  // Figure out where the new packet will be stored in the queue:
++  if (fTailPacket) {
++    if (seqNumLT(fTailPacket->rtpSeqNo(), rtpSeqNo))
++    {
++      fTailPacket->nextPacket() = bPacket;
++      bPacket->nextPacket() = NULL;
++      fTailPacket = bPacket;
++      return True;
++    } 
++    if (rtpSeqNo == fTailPacket->rtpSeqNo()) {
++      // This is a duplicate packet - ignore it
++      return False;
++    }
++  } else {
++    bPacket->nextPacket() = NULL;
++    fHeadPacket = fTailPacket = bPacket;
++    return True;
++  }
++  // this long way for packets out of order 
+   BufferedPacket* beforePtr = NULL;
+   BufferedPacket* afterPtr = fHeadPacket;
+   while (afterPtr != NULL) {
+@@ -536,6 +555,9 @@
+   ++fNextExpectedSeqNo; // because we're finished with this packet now
+ 
+   fHeadPacket = fHeadPacket->nextPacket();
++  if (!fHeadPacket) { 
++    fTailPacket = NULL;
++  }
+   packet->nextPacket() = NULL;
+ 
+   freePacket(packet);

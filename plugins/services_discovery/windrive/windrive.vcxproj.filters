@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{e75f5196-0e66-4fb9-9482-3a663f70785b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\services_discovery">
+      <UniqueIdentifier>{44ee7c47-69d4-4750-a5f9-dcd2ce9cf799}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\services_discovery\windrive.c">
+      <Filter>Source Files\modules\services_discovery</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

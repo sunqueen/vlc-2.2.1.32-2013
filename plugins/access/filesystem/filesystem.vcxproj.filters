@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{faa1d95b-0099-444e-a7a5-56ea8f384095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{40be8922-e541-4425-9930-73d085d3cc55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\directory.c">
+      <Filter>Source Files\modules\access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\file.c">
+      <Filter>Source Files\modules\access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\fs.c">
+      <Filter>Source Files\modules\access</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

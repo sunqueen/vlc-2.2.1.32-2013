@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\actions_manager.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\actions_manager.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\chromaprint.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\chromaprint.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\seekpoints.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\seekpoints.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\variables.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\variables.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\complete_preferences.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\complete_preferences.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller_widget.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller_widget.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGChannels.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGChannels.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGItem.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGRuler.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGRuler.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGView.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGView.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGWidget.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGWidget.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\extended_panels.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\extended_panels.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_panels.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_panels.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_widgets.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_widgets.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\interface_widgets.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\interface_widgets.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\open_panels.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\open_panels.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist.moc.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist_item.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist_model.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist_model.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\selector.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\selector.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\standardpanel.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\standardpanel.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\views.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\views.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\vlc_model.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\vlc_model.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\preferences_widgets.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\preferences_widgets.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\simple_preferences.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\simple_preferences.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\profile_selector.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\profile_selector.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\sout_widgets.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\sout_widgets.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\bookmarks.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\bookmarks.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\convert.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\convert.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\epg.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\epg.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\errors.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\errors.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extended.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extended.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extensions.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extensions.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\external.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\external.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\fingerprintdialog.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\fingerprintdialog.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\firstrun.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\firstrun.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\gototime.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\gototime.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\help.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\help.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\mediainfo.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\mediainfo.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\messages.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\messages.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\open.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\open.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\openurl.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\openurl.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\playlist.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\playlist.moc.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\plugins.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\plugins.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\podcast_configuration.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\podcast_configuration.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\preferences.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\preferences.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\sout.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\sout.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\toolbar.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\toolbar.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\vlm.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\vlm.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs_provider.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs_provider.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\extensions_manager.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\extensions_manager.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\input_manager.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\input_manager.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\main_interface.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\main_interface.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\main_interface_win32.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\managers\addons_manager.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\managers\addons_manager.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\menus.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\menus.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\qt4.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\recents.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\recents.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\resources.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\styles\seekstyle.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\styles\seekstyle.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\animators.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\animators.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\BrowseButton.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\BrowseButton.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\DeckButtonsLayout.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\DeckButtonsLayout.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\RoundButton.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\RoundButton.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\customwidgets.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\customwidgets.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\input_slider.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\input_slider.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\pictureflow.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\pictureflow.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qmenuview.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qmenuview.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qt_dirs.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qvlcapp.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\registry.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\searchlineedit.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\searchlineedit.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\timetooltip.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\timetooltip.moc.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\validators.cpp" />
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\validators.moc.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DFFF65DC-3D3C-4F0C-A937-1BB5DB360648}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>qt4</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;QT4_EXPORTS;HAVE_CONFIG_H;__i386__;__PLUGIN__;MODULE_NAME=qt4;MODULE_NAME_IS_qt4;MODULE_STRING="qt4";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../..;../../../modules/gui/qt4;../../../include;../../../util;../../../win32/include;../../../win32/include/qt4/include;../../../win32/include/qt4/include/QtCore;../../../win32/include/qt4/include/QtGui</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../../win32/cygwin/w32api;../../../debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libvlccore.lib;libcompat.lib;QtCored4.lib;QtGuid4.lib;WinMM.Lib;Comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>../../../dllsrc/dll.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)vlc/plugins/gui/lib$(ProjectName)_plugin$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;QT4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

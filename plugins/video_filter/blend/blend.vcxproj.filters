@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{c9f2bece-e4ba-460b-a1e0-220a1e88afcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_filter">
+      <UniqueIdentifier>{1f0ab786-6ac2-43dc-ac66-3423c8a330e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\blend.cpp">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

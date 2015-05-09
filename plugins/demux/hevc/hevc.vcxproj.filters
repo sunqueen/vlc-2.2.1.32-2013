@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{7196ec48-088e-45e4-ac4b-5a1cbe5b437a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{50581eb6-5795-46a8-a08b-4331a2f48819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux\mpeg">
+      <UniqueIdentifier>{d90d5109-c460-4ebf-b72f-38e776ead0ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\mpeg\hevc.c">
+      <Filter>Source Files\modules\demux\mpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

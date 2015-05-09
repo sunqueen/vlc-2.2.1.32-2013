@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{6123b00e-3bbd-4587-a94f-7b937c9b077a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_mixer">
+      <UniqueIdentifier>{7b0d427a-e6ea-46f0-81fd-db3b42cd3f14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_mixer\integer.c">
+      <Filter>Source Files\modules\audio_mixer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\audio_output\common.c" />
+    <ClCompile Include="..\src\audio_output\dec.c" />
+    <ClCompile Include="..\src\audio_output\filters.c" />
+    <ClCompile Include="..\src\audio_output\output.c" />
+    <ClCompile Include="..\src\audio_output\volume.c" />
+    <ClCompile Include="..\src\config\chain.c" />
+    <ClCompile Include="..\src\config\cmdline.c" />
+    <ClCompile Include="..\src\config\core.c" />
+    <ClCompile Include="..\src\config\file.c" />
+    <ClCompile Include="..\src\config\getopt.c" />
+    <ClCompile Include="..\src\config\help.c" />
+    <ClCompile Include="..\src\config\intf.c" />
+    <ClCompile Include="..\src\config\keys.c" />
+    <ClCompile Include="..\src\extras\libc.c" />
+    <ClCompile Include="..\src\extras\tdestroy.c" />
+    <ClCompile Include="..\src\input\access.c" />
+    <ClCompile Include="..\src\input\clock.c" />
+    <ClCompile Include="..\src\input\control.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\input\decoder.c" />
+    <ClCompile Include="..\src\input\decoder_synchro.c" />
+    <ClCompile Include="..\src\input\demux.c" />
+    <ClCompile Include="..\src\input\es_out.c" />
+    <ClCompile Include="..\src\input\es_out_timeshift.c" />
+    <ClCompile Include="..\src\input\event.c" />
+    <ClCompile Include="..\src\input\input.c" />
+    <ClCompile Include="..\src\input\item.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\input\meta.c" />
+    <ClCompile Include="..\src\input\resource.c" />
+    <ClCompile Include="..\src\input\stats.c" />
+    <ClCompile Include="..\src\input\stream.c" />
+    <ClCompile Include="..\src\input\stream_demux.c" />
+    <ClCompile Include="..\src\input\stream_filter.c" />
+    <ClCompile Include="..\src\input\stream_memory.c" />
+    <ClCompile Include="..\src\input\subtitles.c" />
+    <ClCompile Include="..\src\input\var.c" />
+    <ClCompile Include="..\src\input\vlm.c" />
+    <ClCompile Include="..\src\input\vlmshell.c" />
+    <ClCompile Include="..\src\input\vlm_event.c" />
+    <ClCompile Include="..\src\interface\dialog.c" />
+    <ClCompile Include="..\src\interface\interface.c" />
+    <ClCompile Include="..\src\libvlc-module.c" />
+    <ClCompile Include="..\src\libvlc.c" />
+    <ClCompile Include="..\src\misc\addons.c" />
+    <ClCompile Include="..\src\misc\block.c" />
+    <ClCompile Include="..\src\misc\cpu.c" />
+    <ClCompile Include="..\src\misc\epg.c" />
+    <ClCompile Include="..\src\misc\error.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\misc\es_format.c" />
+    <ClCompile Include="..\src\misc\events.c" />
+    <ClCompile Include="..\src\misc\exit.c" />
+    <ClCompile Include="..\src\misc\filter.c" />
+    <ClCompile Include="..\src\misc\filter_chain.c" />
+    <ClCompile Include="..\src\misc\fingerprinter.c" />
+    <ClCompile Include="..\src\misc\fourcc.c" />
+    <ClCompile Include="..\src\misc\http_auth.c" />
+    <ClCompile Include="..\src\misc\image.c" />
+    <ClCompile Include="..\src\misc\md5.c" />
+    <ClCompile Include="..\src\misc\messages.c" />
+    <ClCompile Include="..\src\misc\mime.c" />
+    <ClCompile Include="..\src\misc\mtime.c" />
+    <ClCompile Include="..\src\misc\objects.c" />
+    <ClCompile Include="..\src\misc\picture.c" />
+    <ClCompile Include="..\src\misc\picture_fifo.c" />
+    <ClCompile Include="..\src\misc\picture_pool.c" />
+    <ClCompile Include="..\src\misc\probe.c" />
+    <ClCompile Include="..\src\misc\rand.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\misc\subpicture.c" />
+    <ClCompile Include="..\src\misc\text_style.c" />
+    <ClCompile Include="..\src\misc\threads.c" />
+    <ClCompile Include="..\src\misc\update.c" />
+    <ClCompile Include="..\src\misc\update_crypto.c" />
+    <ClCompile Include="..\src\misc\variables.c" />
+    <ClCompile Include="..\src\misc\xml.c" />
+    <ClCompile Include="..\src\missing.c" />
+    <ClCompile Include="..\src\modules\bank.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">HAVE_DYNAMIC_PLUGINS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\cache.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">HAVE_DYNAMIC_PLUGINS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\src\modules\entry.c" />
+    <ClCompile Include="..\src\modules\modules.c" />
+    <ClCompile Include="..\src\modules\textdomain.c" />
+    <ClCompile Include="..\src\network\getaddrinfo.c" />
+    <ClCompile Include="..\src\network\httpd.c" />
+    <ClCompile Include="..\src\network\io.c" />
+    <ClCompile Include="..\src\network\rootbind.c" />
+    <ClCompile Include="..\src\network\tcp.c" />
+    <ClCompile Include="..\src\network\tls.c" />
+    <ClCompile Include="..\src\network\udp.c" />
+    <ClCompile Include="..\src\playlist\aout.c" />
+    <ClCompile Include="..\src\playlist\art.c" />
+    <ClCompile Include="..\src\playlist\control.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\playlist\engine.c" />
+    <ClCompile Include="..\src\playlist\fetcher.c" />
+    <ClCompile Include="..\src\playlist\item.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\playlist\loadsave.c" />
+    <ClCompile Include="..\src\playlist\preparser.c" />
+    <ClCompile Include="..\src\playlist\search.c" />
+    <ClCompile Include="..\src\playlist\services_discovery.c" />
+    <ClCompile Include="..\src\playlist\sort.c" />
+    <ClCompile Include="..\src\playlist\thread.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\playlist\tree.c" />
+    <ClCompile Include="..\src\revision.c" />
+    <ClCompile Include="..\src\stream_output\announce.c" />
+    <ClCompile Include="..\src\stream_output\sap.c" />
+    <ClCompile Include="..\src\stream_output\sdp.c" />
+    <ClCompile Include="..\src\stream_output\stream_output.c" />
+    <ClCompile Include="..\src\text\charset.c" />
+    <ClCompile Include="..\src\text\filesystem.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\text\iso_lang.c" />
+    <ClCompile Include="..\src\text\strings.c" />
+    <ClCompile Include="..\src\text\unicode.c" />
+    <ClCompile Include="..\src\text\url.c" />
+    <ClCompile Include="..\src\version.c" />
+    <ClCompile Include="..\src\video_output\control.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)3.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)3.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\video_output\display.c" />
+    <ClCompile Include="..\src\video_output\inhibit.c" />
+    <ClCompile Include="..\src\video_output\interlacing.c" />
+    <ClCompile Include="..\src\video_output\opengl.c" />
+    <ClCompile Include="..\src\video_output\snapshot.c" />
+    <ClCompile Include="..\src\video_output\video_epg.c" />
+    <ClCompile Include="..\src\video_output\video_output.c" />
+    <ClCompile Include="..\src\video_output\video_text.c" />
+    <ClCompile Include="..\src\video_output\video_widgets.c" />
+    <ClCompile Include="..\src\video_output\vout_intf.c" />
+    <ClCompile Include="..\src\video_output\vout_subpictures.c" />
+    <ClCompile Include="..\src\video_output\vout_wrapper.c" />
+    <ClCompile Include="..\src\video_output\window.c" />
+    <ClCompile Include="..\src\win32\dirs.c" />
+    <ClCompile Include="..\src\win32\error.c" />
+    <ClCompile Include="..\src\win32\filesystem.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\win32\netconf.c" />
+    <ClCompile Include="..\src\win32\plugin.c" />
+    <ClCompile Include="..\src\win32\rand.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\win32\specific.c" />
+    <ClCompile Include="..\src\win32\thread.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)2.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\win32\winsock.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libvlccore.def" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B901F7D9-104E-45C8-B58A-BD1D1083A6DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libvlccore</RootNamespace>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBVLCCORE_EXPORTS;HAVE_CONFIG_H;__i386__;MODULE_STRING="core";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../include;../src;../util;../win32/include;..;</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../win32/lib;../win32/cygwin;../win32/cygwin/mingw;../debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;cover.lib;libgcc.lib;libcompat.lib;libgcrypt.lib;libiconv.lib;libintl.lib;libmingwex.lib;libmingw32.lib;Winmm.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>.\libvlccore.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)vlc/$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBVLCCORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

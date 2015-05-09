@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{b3d7b394-396a-432f-ad42-7cfce2cbeb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_out">
+      <UniqueIdentifier>{3e65ef66-6245-4e97-b632-9c88605f7546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\rtp.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\rtcp.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\rtpfmt.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\rtsp.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\vod.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

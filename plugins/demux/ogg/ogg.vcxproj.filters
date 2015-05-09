@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{ac9bb1cf-e8e8-41ae-8628-bfe5522a292c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{ebfb3b65-f550-4d97-8fc2-3a325a0471d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\ogg.c">
+      <Filter>Source Files\modules\demux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\oggseek.c">
+      <Filter>Source Files\modules\demux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\xiph_metadata.c">
+      <Filter>Source Files\modules\demux</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

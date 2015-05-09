@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{5c5fefe2-62a8-4929-b151-180810542169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access_output">
+      <UniqueIdentifier>{1f99ed70-3663-4d91-8d94-310c34f5a018}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access_output\file.c">
+      <Filter>Source Files\modules\access_output</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

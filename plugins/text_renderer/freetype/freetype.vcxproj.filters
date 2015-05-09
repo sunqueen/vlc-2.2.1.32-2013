@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{432a1cfa-74c8-4649-ad1a-b52e4bf79cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\text_renderer">
+      <UniqueIdentifier>{5f4fe24f-7aaa-482b-a24e-b7eab7a6645a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\text_renderer\freetype.c">
+      <Filter>Source Files\modules\text_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\text_renderer\platform_fonts.c">
+      <Filter>Source Files\modules\text_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\text_renderer\text_renderer.c">
+      <Filter>Source Files\modules\text_renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

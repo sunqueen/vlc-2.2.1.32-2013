@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{f0628c86-42bd-4a86-99f4-300c6566e3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_out">
+      <UniqueIdentifier>{ef8a62c1-13ba-43d1-8c5d-056538c70ad4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\duplicate.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

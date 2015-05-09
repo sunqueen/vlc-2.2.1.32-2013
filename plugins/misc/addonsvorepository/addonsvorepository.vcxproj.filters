@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{6da6765f-d188-42c9-af05-ec4382cbf6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\misc">
+      <UniqueIdentifier>{f7e6cf65-5336-48e3-978c-3ecdce3b525b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\misc\addons">
+      <UniqueIdentifier>{8923a98f-e468-4a15-be5a-8bccc39e2bd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\misc\addons\vorepository.c">
+      <Filter>Source Files\modules\misc\addons</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

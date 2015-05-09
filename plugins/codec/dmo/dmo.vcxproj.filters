@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{eeb1a580-3c22-4677-b34c-9c6be5eb83a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec">
+      <UniqueIdentifier>{41b26f14-34fa-4a0b-abe9-c18db45ed382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec\dmo">
+      <UniqueIdentifier>{6afefcad-71f2-44eb-85a5-b329a07ab8f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\dmo\buffer.c">
+      <Filter>Source Files\modules\codec\dmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\dmo\dmo.c">
+      <Filter>Source Files\modules\codec\dmo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

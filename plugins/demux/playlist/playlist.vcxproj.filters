@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{996494a1-0482-4298-9947-840537146557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{a10115bc-ea52-4b31-8bc7-3b0dd229bb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux\playlist">
+      <UniqueIdentifier>{a4d5ab41-2b68-40c3-8c38-3647f6ddb221}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\asx.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\b4s.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\dvb.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\gvp.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\ifo.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\itml.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\m3u.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\playlist.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\pls.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\podcast.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\qtl.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\ram.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\sgimb.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\shoutcast.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\wpl.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\xspf.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\playlist\zpl.c">
+      <Filter>Source Files\modules\demux\playlist</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

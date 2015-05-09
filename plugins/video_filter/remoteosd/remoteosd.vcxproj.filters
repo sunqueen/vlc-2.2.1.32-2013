@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{794a1fcb-28ec-4d19-b883-d689c2de3d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_filter">
+      <UniqueIdentifier>{0ace8d86-cb1e-421b-b0b6-7f3b4ee30b0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\remoteosd.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

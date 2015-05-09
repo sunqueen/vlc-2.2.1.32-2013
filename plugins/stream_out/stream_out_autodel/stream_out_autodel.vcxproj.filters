@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{0f4de0cc-d7ea-4b3d-a7eb-e4951d8e21b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_out">
+      <UniqueIdentifier>{44d9ca49-22ba-493a-adea-9e8832297636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\autodel.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

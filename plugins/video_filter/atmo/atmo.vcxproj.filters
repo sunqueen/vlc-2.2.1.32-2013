@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{87d26649-9de2-48b7-96f1-1f888c83077e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_filter">
+      <UniqueIdentifier>{95e87e94-a441-4ef0-a8fd-552a057b450e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_filter\atmo">
+      <UniqueIdentifier>{d421eb9c-037c-4366-964e-db1c3eef61df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\atmo.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoCalculations.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoChannelAssignment.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoClassicConnection.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoConfig.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoConnection.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoDmxSerialConnection.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoDynData.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoExternalCaptureInput.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoInput.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoLiveView.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoMultiConnection.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoOutputFilter.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoPacketQueue.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoThread.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoTools.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\AtmoZoneDefinition.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\DmxTools.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\FnordlichtConnection.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\atmo\MoMoConnection.cpp">
+      <Filter>Source Files\modules\video_filter\atmo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

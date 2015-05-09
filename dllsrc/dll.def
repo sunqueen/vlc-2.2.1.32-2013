@@ -1,0 +1,5 @@
+; dll.def : Declares the module parameters for the DLL.
+
+EXPORTS
+    ; Explicit exports can go here
+vlc_entry__2_2_0b

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{fa4b5bac-a0fc-4f28-b745-40a376b709c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{ddffe54f-3ea8-4d1e-9707-40439287c6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access\vcd">
+      <UniqueIdentifier>{926cd227-954c-49a5-8bfa-5eb92a8b8273}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\cdda.c">
+      <Filter>Source Files\modules\access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\vcd\cdrom.c">
+      <Filter>Source Files\modules\access\vcd</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

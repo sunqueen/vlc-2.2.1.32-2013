@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{4dda967b-e5d7-4a4f-b3bf-c5bf7644c216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{926e06ac-73ad-4f1a-8288-e7c3000fe160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access\rtsp">
+      <UniqueIdentifier>{7985ab6f-94ac-4538-ad42-89f3a1ca55f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rtsp\access.c">
+      <Filter>Source Files\modules\access\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rtsp\real.c">
+      <Filter>Source Files\modules\access\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rtsp\real_asmrp.c">
+      <Filter>Source Files\modules\access\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rtsp\real_rmff.c">
+      <Filter>Source Files\modules\access\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rtsp\real_sdpplin.c">
+      <Filter>Source Files\modules\access\rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rtsp\rtsp.c">
+      <Filter>Source Files\modules\access\rtsp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

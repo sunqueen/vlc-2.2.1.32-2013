@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{c41d7e59-b197-478c-ba65-1149f412d605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{4255f54e-1c7c-4bfd-95dd-3b5e52ccf4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec">
+      <UniqueIdentifier>{214f205c-46d6-4dd0-bc29-c3f815f56aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux\mpeg">
+      <UniqueIdentifier>{42819f5f-e7a0-4adc-adcc-c1eaeda6ec0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\dts_header.c">
+      <Filter>Source Files\modules\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\mpeg\es.c">
+      <Filter>Source Files\modules\demux\mpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

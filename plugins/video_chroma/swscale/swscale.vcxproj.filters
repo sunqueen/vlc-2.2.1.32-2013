@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{ee835876-3e81-4cc4-919a-a215431c318d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_chroma">
+      <UniqueIdentifier>{80ba29a1-5a9d-4efb-bb59-44a5c82bcfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec">
+      <UniqueIdentifier>{cbc4a41b-440b-40a2-9fa9-2cae35c3eff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec\avcodec">
+      <UniqueIdentifier>{18c48dd6-1fca-4cd6-bc12-7500a26e722c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_chroma\swscale.c">
+      <Filter>Source Files\modules\video_chroma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\chroma.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

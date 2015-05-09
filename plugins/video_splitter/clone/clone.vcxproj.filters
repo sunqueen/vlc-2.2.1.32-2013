@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{8eac0022-3f37-40d9-95a8-08584b87f07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_splitter">
+      <UniqueIdentifier>{9fa7ccb7-a3ab-43be-b7d2-b8af2dbfca58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_splitter\clone.c">
+      <Filter>Source Files\modules\video_splitter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

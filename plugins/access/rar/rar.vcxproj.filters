@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{2abc9068-113b-4bfa-b7ef-1094663129bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{02cdf4ac-585a-4443-a54b-c888d8193799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access\rar">
+      <UniqueIdentifier>{996d0aa2-d8d8-4a32-8203-9ada1907d5cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rar\access.c">
+      <Filter>Source Files\modules\access\rar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rar\rar.c">
+      <Filter>Source Files\modules\access\rar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rar\module.c">
+      <Filter>Source Files\modules\access\rar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\rar\stream.c">
+      <Filter>Source Files\modules\access\rar</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

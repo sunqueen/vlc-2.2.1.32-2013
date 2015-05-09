@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{3a7266ad-b55b-4a89-9394-8ae953b719bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{489d7abb-0cc7-47b4-b8b1-e7c22b5c86c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux\avi">
+      <UniqueIdentifier>{dfe1d3ae-ede9-445d-99b0-5fbd0c15be8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\avi\avi.c">
+      <Filter>Source Files\modules\demux\avi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\avi\libavi.c">
+      <Filter>Source Files\modules\demux\avi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

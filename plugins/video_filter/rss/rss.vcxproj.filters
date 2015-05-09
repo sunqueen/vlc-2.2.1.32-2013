@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{02a64b26-2bc0-4b85-8c21-534f7f1d52b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_filter">
+      <UniqueIdentifier>{4091bf37-83e4-4774-a544-0d4bafe54e92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\rss.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

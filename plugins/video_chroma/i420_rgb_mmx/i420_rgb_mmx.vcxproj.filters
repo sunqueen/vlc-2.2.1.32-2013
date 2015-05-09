@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{7c500497-6034-4d6a-9635-0ba05608719c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_chroma">
+      <UniqueIdentifier>{5d38f191-2b99-46e3-a52f-723217ef6551}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_chroma\i420_rgb.c">
+      <Filter>Source Files\modules\video_chroma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_chroma\i420_rgb16_x86.c">
+      <Filter>Source Files\modules\video_chroma</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

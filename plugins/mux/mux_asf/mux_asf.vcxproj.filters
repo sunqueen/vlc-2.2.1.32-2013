@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{cb78fc7b-25fa-485c-b8b6-f3291eef876e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\mux">
+      <UniqueIdentifier>{7774bc03-8df3-40d6-8ebb-6b061dc29f21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\mux\asf.c">
+      <Filter>Source Files\modules\mux</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

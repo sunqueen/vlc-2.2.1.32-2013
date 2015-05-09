@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{c98ffc58-c10e-4816-8e18-937ae1807e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui">
+      <UniqueIdentifier>{650af64a-9f27-4305-bbfe-6ff552330324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2">
+      <UniqueIdentifier>{1d8ec88c-12bd-48dc-bab8-91a9a6253f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\commands">
+      <UniqueIdentifier>{7720da7e-5255-46d1-80e9-e372720351ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\controls">
+      <UniqueIdentifier>{37d42ffd-6aed-4524-9637-8933c978800a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\events">
+      <UniqueIdentifier>{bfba6505-1952-4d54-a13a-556e9159f468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\parser">
+      <UniqueIdentifier>{e5f1e944-c2d5-4a7d-8114-aac97597a439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\src">
+      <UniqueIdentifier>{3e42a2ac-d457-4b98-a049-28a30b29af33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\utils">
+      <UniqueIdentifier>{9c704d08-61c6-46cd-b4b1-451cfb904377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\vars">
+      <UniqueIdentifier>{b82ec744-e0e1-42c0-8287-6b53c8808f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\skins2\win32">
+      <UniqueIdentifier>{c5cce0a9-e0a8-4f9f-8dd1-3a28dab3b9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{f71459af-fcc2-437f-9e63-136e1e18bee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access\zip">
+      <UniqueIdentifier>{1eef8ec4-b863-4fd0-a4d9-d76db7d743f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access\zip\unzip">
+      <UniqueIdentifier>{137cbfd9-3596-4ee6-ad85-5a1f63ce861a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\async_queue.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_add_item.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_audio.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_change_skin.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_dvd.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_fullscreen.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_input.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_layout.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_minimize.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_muxer.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_on_top.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_playlist.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_playtree.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_quit.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_resize.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_snapshot.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\commands\cmd_vars.cpp">
+      <Filter>Source Files\modules\gui\skins2\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_button.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_checkbox.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_generic.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_image.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_list.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_move.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_radialslider.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_resize.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_slider.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_text.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_tree.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\controls\ctrl_video.cpp">
+      <Filter>Source Files\modules\gui\skins2\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\events\evt_input.cpp">
+      <Filter>Source Files\modules\gui\skins2\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\events\evt_key.cpp">
+      <Filter>Source Files\modules\gui\skins2\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\events\evt_mouse.cpp">
+      <Filter>Source Files\modules\gui\skins2\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\events\evt_scroll.cpp">
+      <Filter>Source Files\modules\gui\skins2\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\events\evt_special.cpp">
+      <Filter>Source Files\modules\gui\skins2\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\parser\builder.cpp">
+      <Filter>Source Files\modules\gui\skins2\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\parser\expr_evaluator.cpp">
+      <Filter>Source Files\modules\gui\skins2\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\parser\interpreter.cpp">
+      <Filter>Source Files\modules\gui\skins2\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\parser\skin_parser.cpp">
+      <Filter>Source Files\modules\gui\skins2\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\parser\xmlparser.cpp">
+      <Filter>Source Files\modules\gui\skins2\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\anchor.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\anim_bitmap.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\art_manager.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\bitmap_font.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\dialogs.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\file_bitmap.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\fsc_window.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\ft2_bitmap.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\ft2_err.c">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\ft2_font.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\generic_bitmap.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\generic_layout.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\generic_window.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\ini_file.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\logger.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\os_factory.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\popup.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\scaled_bitmap.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\skin_main.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\theme.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\theme_loader.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\theme_repository.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\tooltip.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\top_window.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\var_manager.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\vlcproc.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\vout_manager.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\vout_window.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\src\window_manager.cpp">
+      <Filter>Source Files\modules\gui\skins2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\bezier.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\fsm.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\position.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\ustring.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\var_bool.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\var_list.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\var_percent.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\var_string.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\var_text.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\utils\var_tree.cpp">
+      <Filter>Source Files\modules\gui\skins2\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\vars\equalizer.cpp">
+      <Filter>Source Files\modules\gui\skins2\vars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\vars\playtree.cpp">
+      <Filter>Source Files\modules\gui\skins2\vars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\vars\time.cpp">
+      <Filter>Source Files\modules\gui\skins2\vars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\vars\volume.cpp">
+      <Filter>Source Files\modules\gui\skins2\vars</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_dragdrop.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_factory.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_graphics.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_loop.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_popup.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_timer.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_tooltip.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\skins2\win32\win32_window.cpp">
+      <Filter>Source Files\modules\gui\skins2\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\zip\unzip\ioapi.c">
+      <Filter>Source Files\modules\access\zip\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\zip\unzip\unzip.c">
+      <Filter>Source Files\modules\access\zip\unzip</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{d97ed82b-3efd-4ee4-bbf1-ae5022442cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\visualization">
+      <UniqueIdentifier>{0d5e5df7-8fe3-4688-8c71-33a961c49da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\visualization\visual">
+      <UniqueIdentifier>{f08112c8-f54d-4a6d-b574-18ce6876c1aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\visualization\visual\effects.c">
+      <Filter>Source Files\modules\visualization\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\visualization\visual\fft.c">
+      <Filter>Source Files\modules\visualization\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\visualization\visual\visual.c">
+      <Filter>Source Files\modules\visualization\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\visualization\visual\window.c">
+      <Filter>Source Files\modules\visualization\visual</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

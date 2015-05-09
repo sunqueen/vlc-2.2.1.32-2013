@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{bc360793-a4cf-499d-bef3-b0cd79b267ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter">
+      <UniqueIdentifier>{601f329a-657b-4fe8-afb5-846e35cfaecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter\resampler">
+      <UniqueIdentifier>{3a7ed3cd-f282-44b3-989b-5edab09f9265}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\resampler\ugly.c">
+      <Filter>Source Files\modules\audio_filter\resampler</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

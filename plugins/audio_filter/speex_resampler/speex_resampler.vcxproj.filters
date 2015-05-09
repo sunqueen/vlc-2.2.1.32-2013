@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{26bf9d2b-06f8-49bf-bba9-7523820edfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter">
+      <UniqueIdentifier>{d046d9b9-676e-4027-a2bd-d135affdcd53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter\resampler">
+      <UniqueIdentifier>{8ba62acd-19c8-44b8-bc31-db55fca6bbc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\resampler\speex.c">
+      <Filter>Source Files\modules\audio_filter\resampler</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

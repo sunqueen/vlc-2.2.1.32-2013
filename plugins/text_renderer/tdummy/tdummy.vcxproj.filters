@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{c6f29a30-b78b-4ca1-9391-87c35caa0961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\text_renderer">
+      <UniqueIdentifier>{f841093e-1727-4d9c-a321-46119a91f174}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\text_renderer\tdummy.c">
+      <Filter>Source Files\modules\text_renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

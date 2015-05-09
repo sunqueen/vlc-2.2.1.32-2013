@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{208aa1a9-1803-46f7-8a57-669dccb1d15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec">
+      <UniqueIdentifier>{cd45c5ed-231e-40e5-a8b9-974213835ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{0a5561cf-d907-4121-96c8-8a0127de789c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\codec\avcodec">
+      <UniqueIdentifier>{4fcbd2d4-0a9a-40c2-a12d-5008358682da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{66cd8563-6b72-444d-a2cd-e0b1ce1418a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux\avformat">
+      <UniqueIdentifier>{5583a377-7549-4aec-8715-1f5525579a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\packetizer">
+      <UniqueIdentifier>{10abd5e4-f11b-4f09-851d-96f9f24cefd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\avio.c">
+      <Filter>Source Files\modules\access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\audio.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\avcodec.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\chroma.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\encoder.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\fourcc.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\subtitle.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\video.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\avformat\demux.c">
+      <Filter>Source Files\modules\demux\avformat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\avformat\mux.c">
+      <Filter>Source Files\modules\demux\avformat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\codec\avcodec\va.c">
+      <Filter>Source Files\modules\codec\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\packetizer\avparser.c">
+      <Filter>Source Files\modules\packetizer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{7c2a894a-821a-431a-b954-cc8e4c9fbc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux">
+      <UniqueIdentifier>{c296bb96-39bd-4f5a-a82d-17d6dcb74a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\demux\mp4">
+      <UniqueIdentifier>{3655615d-f57a-4c32-9984-d60c93b64b48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\mp4\libmp4.c">
+      <Filter>Source Files\modules\demux\mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\demux\mp4\mp4.c">
+      <Filter>Source Files\modules\demux\mp4</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

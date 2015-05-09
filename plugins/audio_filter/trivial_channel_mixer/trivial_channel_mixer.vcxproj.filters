@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{b2557c48-5516-42db-888f-30e1062d846e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter">
+      <UniqueIdentifier>{bffae092-a466-4811-b841-283074ecec93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\audio_filter\channel_mixer">
+      <UniqueIdentifier>{64d47d4c-88fa-4745-9c6d-a4958bf9f0c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\audio_filter\channel_mixer\trivial.c">
+      <Filter>Source Files\modules\audio_filter\channel_mixer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

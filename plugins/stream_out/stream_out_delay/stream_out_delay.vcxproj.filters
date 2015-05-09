@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{12c408b3-72a1-4e70-9516-e90f390020b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_out">
+      <UniqueIdentifier>{73284dce-2337-4ac0-a9c4-0ed23ca897c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\delay.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

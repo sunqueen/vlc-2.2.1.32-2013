@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{14b68a2c-f8b9-4002-80cb-98bbf63336a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\stream_out">
+      <UniqueIdentifier>{7f9893c5-83fa-400a-be66-71e1329361f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\stream_out\mosaic_bridge.c">
+      <Filter>Source Files\modules\stream_out</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

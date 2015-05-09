@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{013cd3c9-25d0-4c39-b1b2-88d6eedb3acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\video_filter">
+      <UniqueIdentifier>{2902aca3-0869-4822-a510-70ed3bcc3ade}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\puzzle.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\puzzle_bezier.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\puzzle_lib.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\puzzle_mgt.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\video_filter\puzzle_pce.c">
+      <Filter>Source Files\modules\video_filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

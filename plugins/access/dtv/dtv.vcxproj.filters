@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{d9f1abb6-72ba-47fd-9a19-702976c4b5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access">
+      <UniqueIdentifier>{ee9d14fc-9b86-4984-90ae-c672e309e4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\access\dtv">
+      <UniqueIdentifier>{45581850-7ba9-4aa9-9216-5408bbf6796f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\dtv\access.c">
+      <Filter>Source Files\modules\access\dtv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\access\dtv\bdagraph.cpp">
+      <Filter>Source Files\modules\access\dtv</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

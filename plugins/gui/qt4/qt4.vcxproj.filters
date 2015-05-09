@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{ed6c6b8e-ed40-472a-ae04-f53a4d77291e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui">
+      <UniqueIdentifier>{c5898384-a371-42b8-aeac-76cb4fa95e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4">
+      <UniqueIdentifier>{b4ec6fdf-9510-43ec-ab7b-006496092409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\adapters">
+      <UniqueIdentifier>{2571aae6-ef81-4b78-bffd-332a6e603879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\components">
+      <UniqueIdentifier>{7b220cf2-618b-486a-b06f-cd059642fd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\dialogs">
+      <UniqueIdentifier>{e948e152-713e-41ac-9aae-6ade1752e91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\styles">
+      <UniqueIdentifier>{58d83f17-c686-43f6-9884-163729f4c63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\util">
+      <UniqueIdentifier>{6bb90bb8-d1ef-4f30-82af-20657e4a6754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\components\epg">
+      <UniqueIdentifier>{6fa43056-641e-47cb-9ef3-b6e25eda1ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\util\buttons">
+      <UniqueIdentifier>{fd4462aa-9769-4d1b-97e8-8129eadc8a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\components\sout">
+      <UniqueIdentifier>{44148fb6-ea8f-40d2-80dc-dc89e9a64774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\components\playlist">
+      <UniqueIdentifier>{72249c53-ec98-450c-b725-71118c05539d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\gui\qt4\managers">
+      <UniqueIdentifier>{0eb55da2-829c-4b84-9bf8-cfb2f0ed1504}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dllsrc\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\actions_manager.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\actions_manager.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs_provider.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs_provider.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\extensions_manager.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\extensions_manager.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\input_manager.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\input_manager.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\main_interface.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\main_interface.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\main_interface_win32.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\menus.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\menus.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\qt4.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\recents.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\recents.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\resources.cpp">
+      <Filter>Source Files\modules\gui\qt4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\chromaprint.cpp">
+      <Filter>Source Files\modules\gui\qt4\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\chromaprint.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\seekpoints.cpp">
+      <Filter>Source Files\modules\gui\qt4\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\seekpoints.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\variables.cpp">
+      <Filter>Source Files\modules\gui\qt4\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\adapters\variables.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\adapters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\complete_preferences.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\complete_preferences.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller_widget.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\controller_widget.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\extended_panels.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\extended_panels.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_panels.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_panels.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_widgets.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\info_widgets.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\interface_widgets.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\interface_widgets.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\open_panels.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\open_panels.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\preferences_widgets.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\preferences_widgets.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\simple_preferences.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\simple_preferences.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGChannels.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGChannels.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGItem.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGRuler.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGRuler.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGView.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGView.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGWidget.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\epg\EPGWidget.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist_item.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist_model.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\playlist_model.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\selector.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\selector.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\standardpanel.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\standardpanel.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\views.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\views.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\vlc_model.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\playlist\vlc_model.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\profile_selector.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\sout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\profile_selector.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\sout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\sout_widgets.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\sout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\components\sout\sout_widgets.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\components\sout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\bookmarks.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\bookmarks.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\convert.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\convert.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\epg.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\epg.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\errors.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\errors.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extended.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extended.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extensions.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\extensions.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\external.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\external.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\fingerprintdialog.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\fingerprintdialog.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\firstrun.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\firstrun.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\gototime.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\gototime.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\help.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\help.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\mediainfo.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\mediainfo.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\messages.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\messages.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\open.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\open.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\openurl.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\openurl.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\playlist.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\playlist.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\plugins.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\plugins.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\podcast_configuration.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\podcast_configuration.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\preferences.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\preferences.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\sout.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\sout.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\toolbar.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\toolbar.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\vlm.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\dialogs\vlm.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\styles\seekstyle.cpp">
+      <Filter>Source Files\modules\gui\qt4\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\styles\seekstyle.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\customwidgets.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\customwidgets.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\input_slider.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\input_slider.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\pictureflow.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\pictureflow.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qmenuview.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qmenuview.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qt_dirs.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\qvlcapp.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\registry.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\searchlineedit.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\searchlineedit.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\timetooltip.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\timetooltip.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\BrowseButton.cpp">
+      <Filter>Source Files\modules\gui\qt4\util\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\BrowseButton.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\DeckButtonsLayout.cpp">
+      <Filter>Source Files\modules\gui\qt4\util\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\DeckButtonsLayout.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\RoundButton.cpp">
+      <Filter>Source Files\modules\gui\qt4\util\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\buttons\RoundButton.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\managers\addons_manager.cpp">
+      <Filter>Source Files\modules\gui\qt4\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\managers\addons_manager.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\animators.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\animators.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\validators.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\modules\gui\qt4\util\validators.moc.cpp">
+      <Filter>Source Files\modules\gui\qt4\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
