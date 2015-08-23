@@ -54,7 +54,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ACCESS_OUTPUT_SHOUT_EXPORTS;HAVE_CONFIG_H;__i386__;__PLUGIN__;MODULE_NAME=access_output_shout;MODULE_NAME_IS_access_output_shout;MODULE_STRING="access_output_shout";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ACCESS_OUTPUT_SHOUT_EXPORTS;HAVE_CONFIG_H;__i386__;__PLUGIN__;__DECODE_POINTER__;MODULE_NAME=access_output_shout;MODULE_NAME_IS_access_output_shout;MODULE_STRING="access_output_shout";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../../../include;../../../util;../../../win32/include;../../..</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -62,7 +62,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <OutputFile>$(OutDir)vlc/plugins/access_output/lib$(ProjectName)_plugin$(TargetExt)</OutputFile>
       <AdditionalLibraryDirectories>../../../win32/lib;../../../win32/cygwin;../../../win32/cygwin/mingw;../../../debug</AdditionalLibraryDirectories>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libvlccore.lib;libcompat.lib;Ws2_32.lib;libgcc.lib;libshout.lib;libogg.lib;libvorbis.lib;libtheora.lib;libspeex.lib;libm.lib;libmingwex.lib;libmingw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;libvlccore.lib;libcompat.lib;Ws2_32.lib;libgcc.lib;libshout.lib;libogg.lib;libvorbis.lib;libtheora.lib;libspeex.lib;libm.lib;libmingwex.lib;libmingw32.lib;libkernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>../../../dllsrc/dll.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>

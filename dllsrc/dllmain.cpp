@@ -17,6 +17,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 	return TRUE;
 }
 
+#ifdef __DECODE_POINTER__
 extern "C" void *_decode_pointer(void *ptr)
 {
 	return DecodePointer(ptr);
@@ -26,3 +27,4 @@ extern "C" void *_encode_pointer(void *ptr)
 {
 	return EncodePointer(ptr);
 }
+#endif
