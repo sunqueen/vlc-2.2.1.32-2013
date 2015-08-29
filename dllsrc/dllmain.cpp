@@ -16,13 +16,3 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 	}
 	return TRUE;
 }
-
-extern "C" void *_decode_pointer(void *ptr)
-{
-	return DecodePointer(ptr);
-}
-
-extern "C" void *_encode_pointer(void *ptr)
-{
-	return EncodePointer(ptr);
-}
